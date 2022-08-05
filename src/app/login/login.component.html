@@ -1,0 +1,28 @@
+<div class="card1">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Login</h1>
+                    <h6>Please Enter Username & Password</h6>
+                </div>
+                <form [formGroup]="loginForm" (ngSubmit)="login()">
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><mat-icon aria-hidden="false" aria-label="Example user icon" fontIcon="account_circle"></mat-icon></span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" formControlName="username">
+                      </div>
+                      <div class="input-group mb-3" id="password">
+                        <span class="input-group-text" id="basic-addon1"><mat-icon aria-hidden="false"(click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                            {{hide ? 'visibility_off' : 'visibility'}}</mat-icon></span>
+                        <input formControlName="password" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" [type]="hide ? 'password' : 'text'">
+                      </div>
+                      <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                      </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>    

@@ -1,0 +1,50 @@
+{
+  "employeeList": [
+    {
+      "name": "Ranushka Ruvishan",
+      "userName": "Ranu123",
+      "password": "202560",
+      "id": 2
+    },
+    {
+      "name": "Chanuka Janith",
+      "userName": "chanuka123",
+      "password": "c30891124",
+      "id": 3
+    },
+    {
+      "name": "DD",
+      "userName": "dd123",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "name": "CC",
+      "userName": "cc123",
+      "password": "2345",
+      "id": 5
+    },
+    {
+      "name": "NN",
+      "userName": "nn123",
+      "password": "2020",
+      "id": 6
+    },
+    {
+      "name": "KK",
+      "userName": "kk123",
+      "password": "3030",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
